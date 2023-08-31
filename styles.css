@@ -8,3 +8,25 @@
   display: inline-block;
   font-size: 16px;
 }
+
+.Nav {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 150px;
+  align-items: center;
+  margin: auto;
+}
+
+.img-Logo {
+  width: 300px;
+}
+
+.Nav ul {
+  list-style: none;
+}
+
+.Nav li {
+  display: inline;
+  margin: 30px;
+}
