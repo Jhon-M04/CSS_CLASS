@@ -1,14 +1,3 @@
-.Boton {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
 .Nav {
   width: 1200px;
   display: grid;
@@ -19,7 +8,7 @@
 }
 
 .img-Logo {
-  width: 300px;
+  width: 280px;
 }
 
 .Nav ul {
@@ -29,4 +18,35 @@
 .Nav li {
   display: inline;
   margin: 30px;
+}
+
+.main-section {
+  height: 100vh;
+  width: 1200px;
+  margin: auto;
+
+  padding-top: 100px;
+}
+
+.degradado {
+  width: 1200px;
+  height: 30vh;
+  background: linear-gradient(to right, #2558e6, #ffffff);
+  border-radius: 2rem;
+}
+
+.degradado h1 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 5rem;
+}
+
+.explorar {
+  height: 50px;
+  width: 120px;
+  color: #ffffff;
+  background-color: #2558e6;
+  border-radius: 1rem;
+  margin-top: 50px;
 }
